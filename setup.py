@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'qf-server = qf.server:server', 
+            'qf-server = qf.server.server:main', 
         ],
     },
     author='Ojiambo Felix',
@@ -24,14 +24,14 @@ setup(
     description='A server component of the QF project',
     long_description=read_long_description(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/qf',
+    url='https://github.com/felixojiambo/ConcurrentServerSecureComm.git',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+       
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
 )
